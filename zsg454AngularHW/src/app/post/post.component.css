@@ -1,0 +1,36 @@
+mat-form-field, textarea {
+  width: 100%;
+  text-align: left;
+}
+
+mat-card {
+  width: 100%
+}
+
+#formSubmitButton {
+  width: 50%;
+  margin: 10px;
+  float: center;
+}
+
+#form {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.button-holder {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.form-item-holder {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+  justify-content: center;
+}

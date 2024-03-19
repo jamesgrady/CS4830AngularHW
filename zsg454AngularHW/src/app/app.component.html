@@ -1,0 +1,12 @@
+<app-head-create></app-head-create>
+<main>
+<div width="100%" height="100%" class="parentBox" id="formbox">
+<div width="50%" height="100%" class="childBox">
+<app-post (postCreated)="onPostAdded($event)"></app-post>
+</div>
+<br>
+<div width="50%" height="100%" class="childBox" id="listbox">
+<app-post-list [posts]="storedPosts"></app-post-list>
+</div>
+</div>
+</main>
